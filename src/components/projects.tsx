@@ -30,31 +30,31 @@ export function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Penguin Academy",
+      title: "Weather App",
       description:
-        "Plataforma educativa especializada en Inteligencia Artificial, programación y matemáticas aplicadas.",
-      technologies: ["Next.js", "React", "TypeScript", "Tailwind"],
-      demo: "https://www.penguinmy.xyz/",
+        "App Web del clima, Consumo de Api's , programación y matemáticas aplicadas.",
+      technologies: ["Html","JavaScript", "Css"],
+      demo: "https://weatherappv1s.netlify.app/",
       image: "/proyecto1.png",
       showOnlyDemo: true,
     },
     {
       id: 2,
-      title: "TREEJS",
+      title: "CanchasNow",
       description:
-        "Aplicación web interactiva con animaciones 3D creadas con ThreeJS.",
-      technologies: ["ThreeJS", "JavaScript", "WebGL", "3D"],
-      demo: "https://treejsprojects.vercel.app/",
+        "Aplicacion Web Reserva de Canchas Deportivas .",
+      technologies: ["Html", "Css", "JavaScript", "Node.js"],
+      demo: "https://github.com/DieguitoCoder/Proyect-CanchasNow",
       image: "/proyecto2.png",
       showOnlyDemo: true,
     },
     {
       id: 3,
-      title: "Entropy Evolve",
+      title: "RiwiSports",
       description:
-        "Sistema de automejora para agentes de IA, diseñado para dominios complejos con ingeniería de software como caso de prueba.",
-      technologies: ["Python", "AI", "Machine Learning"],
-      github: "https://github.com/luisjosuecortes/EntropyEvolve",
+        "How to prepare the environment, load the database, run the notebooks and scripts, and a summary of the analysis performed.",
+      technologies: ["Python", "IA", "JupyterNotebook", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+      github: "https://github.com/DieguitoCoder/RiwiSports",
       image: "/proyecto3.png",
       showOnlyDemo: false,
     },

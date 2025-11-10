@@ -68,12 +68,10 @@ export function About() {
                  opacity: 0 
                }}>
             <h3 className="text-2xl font-bold text-gray-900 mb-3">
-              Luis Cortés
+              Diego Teran
             </h3>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Estudiante de Inteligencia Artificial en sus últimos semestres en
-              la Universidad Autónoma del Estado de Morelos. Apasionado por la
-              programación, el desarrollo web y la ciencia de datos.
+              Estudiante de Desarollo de software en RIWI .
             </p>
           </div>
 
@@ -88,10 +86,10 @@ export function About() {
             <div className="space-y-2 text-gray-600">
               <p className="hover:text-gray-900 transition-colors">
                 <span className="font-semibold">
-                  Universidad Autónoma del Estado de Morelos (UAEM)
+                  RIWI (RIWI.IO)
                 </span>
               </p>
-              <p className="text-sm hover:text-gray-900 transition-colors">Licenciatura en Inteligencia Artificial</p>
+              <p className="text-sm hover:text-gray-900 transition-colors">Junior Developer</p>
               <p className="text-sm hover:text-gray-900 transition-colors">Actualmente estudiando</p>
             </div>
           </div>
@@ -107,13 +105,12 @@ export function About() {
             <div className="space-y-2 text-gray-600">
               <p className="hover:text-gray-900 transition-colors">
                 <span className="font-semibold">
-                  Asistente en Investigación
+                  Gestion Operaciones Financieras y Comerciales 
                 </span>{" "}
-                - UAEM CINC Morelos
+                - SENA
               </p>
               <p className="text-sm hover:text-gray-900 transition-colors">
-                Proyectos en Ciencia de Datos y su aplicación en Series de
-                Tiempo (EEG, MEG, fMRI, Ritmo Cardíaco)
+                Data Analytics Junior Developer
               </p>
               <p className="text-sm hover:text-gray-900 transition-colors">2025 – Actualmente</p>
             </div>
@@ -130,8 +127,6 @@ export function About() {
             <div className="flex flex-wrap gap-2">
               {[
                 "Python",
-                "AI/ML",
-                "PyTorch",
                 "TypeScript",
                 "React",
                 "Node.js",
