@@ -2,7 +2,7 @@
 
 Guía breve para clonar, instalar y ejecutar el proyecto, cualquier duda sigueme en Instagram. 😁
 
-[![Instagram](https://img.shields.io/badge/Instagram-@luiscortespenguin-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/_dieggo.66/)
+[![Instagram](https://img.shields.io/badge/Instagram-@DiegoTeran-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/_dieggo.66/)
 
 ## Requisitos
 - Node.js 18+ (recomendado 20)
