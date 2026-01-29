@@ -32,7 +32,7 @@ export function Projects() {
       id: 1,
       title: "Weather App",
       description:
-        "App Web del clima, Consumo de Api's , programación y matemáticas aplicadas.",
+        "Implemente el consumo de API's para obtener datos del clima y mostrarlos en una interfaz gráfica.",
       technologies: ["Html","JavaScript", "Css"],
       demo: "https://weatherappv1s.netlify.app/",
       image: "/proyecto1.png",
@@ -40,21 +40,21 @@ export function Projects() {
     },
     {
       id: 2,
-      title: "CanchasNow",
+      title: "DocGenPro AI",
       description:
-        "Aplicacion Web Reserva de Canchas Deportivas .",
-      technologies: ["Html", "Css", "JavaScript", "Node.js"],
-      demo: "https://github.com/DieguitoCoder/Proyect-CanchasNow",
+        "Herramienta avanzada de automatización que utiliza modelos de Google Generative AI y OpenAI para transformar datos en documentos profesionales y PDFs dinámicos.",
+      technologies: ["Docker", "Python", "Google Generative AI", "OpenAI"],
+      demo: "https://github.com/DieguitoCoder/DocGenPro-Ai",
       image: "/proyecto2.png",
       showOnlyDemo: true,
     },
     {
       id: 3,
-      title: "RiwiSports",
+      title: "RW-Ventas",
       description:
-        "How to prepare the environment, load the database, run the notebooks and scripts, and a summary of the analysis performed.",
+        "Desarrollo de una solución   de datos,desde la limpieza y modelado de datos hasta su despliegue en PostgreSQL",
       technologies: ["Python", "IA", "JupyterNotebook", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
-      github: "https://github.com/DieguitoCoder/RiwiSports",
+      github: "https://github.com/DieguitoCoder/RW-Ventas",
       image: "/proyecto3.png",
       showOnlyDemo: false,
     },

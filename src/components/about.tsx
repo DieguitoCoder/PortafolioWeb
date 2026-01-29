@@ -71,7 +71,7 @@ export function About() {
               Diego Teran
             </h3>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Estudiante de Desarollo de software en RIWI .
+              Mi enfoque no es solo escribir código, sino entender el comportamiento de los datos para crear sistemas que aprendan y evolucionen. Soy un aprendiz constante que explora activamente las fronteras de la IA Generativa y la automatización para optimizar procesos de desarrollo.  
             </p>
           </div>
 
@@ -79,18 +79,24 @@ export function About() {
                style={{ 
                  animation: isVisible ? 'fadeUp 0.8s ease-out 0.5s forwards' : 'none',
                  opacity: 0 
-               }}>
+                }}>
             <h4 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
               <span className="inline-block w-1 h-6 bg-gray-900 rounded-full animate-pulse" /> Educación
             </h4>
             <div className="space-y-2 text-gray-600">
               <p className="hover:text-gray-900 transition-colors">
                 <span className="font-semibold">
-                  RIWI (RIWI.IO)
-                </span>
+                  RIWI – Junior Developer / Data Analytics
+                </span>{" "}
+                <span className="text-sm">(Entrenamiento Avanzado)</span>
               </p>
-              <p className="text-sm hover:text-gray-900 transition-colors">Junior Developer</p>
-              <p className="text-sm hover:text-gray-900 transition-colors">Actualmente estudiando</p>
+              <p className="text-sm hover:text-gray-900 transition-colors">Ago 2025 – Dic 2025</p>
+              <p className="text-sm hover:text-gray-900 transition-colors">
+                Formé parte de la ruta avanzada de Data Analytics, especializándome en el procesamiento de datos con Python y la creación de tableros de control estratégicos en Power BI.
+              </p>
+              <p className="text-sm hover:text-gray-900 transition-colors">
+                Desarrollé habilidades técnicas intensivas en el ecosistema de RIWI, destacando por la capacidad analítica y resolución de problemas técnicos complejos.
+              </p>
             </div>
           </div>
 
@@ -105,17 +111,23 @@ export function About() {
             <div className="space-y-2 text-gray-600">
               <p className="hover:text-gray-900 transition-colors">
                 <span className="font-semibold">
-                  Gestion Operaciones Financieras y Comerciales 
+                  <a href="https://riwi.io/" className="hover:underline">RIWI</a> – Backend Developer
                 </span>{" "}
-                - SENA
+                <span className="text-sm">(Actual)</span>
+              </p>
+              <p className="text-sm hover:text-gray-900 transition-colors">Ene 2026 – Presente</p>
+              <p className="text-sm hover:text-gray-900 transition-colors mt-2">
+                • Lidero el desarrollo de soluciones integrales con un enfoque especializado en arquitectura Backend y optimización de Bases de Datos utilizando Python.
               </p>
               <p className="text-sm hover:text-gray-900 transition-colors">
-                Data Analytics Junior Developer
+                • Diseño e implemento servicios escalables y eficientes, asegurando la integridad de los datos y el rendimiento del sistema.
               </p>
-              <p className="text-sm hover:text-gray-900 transition-colors">2025 – Actualmente</p>
+              <p className="text-sm hover:text-gray-900 transition-colors">
+                • Colaboro en el ciclo completo de desarrollo (Backend), garantizando una transición fluida entre la lógica del servidor y la interfaz de usuario.
+              </p>
             </div>
           </div>
-
+        
           <div className="transform transition-all duration-700 ease-out" 
                style={{ 
                  animation: isVisible ? 'fadeUp 0.8s ease-out 0.7s forwards' : 'none',
@@ -124,25 +136,41 @@ export function About() {
             <h4 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
               <span className="inline-block w-1 h-6 bg-gray-900 rounded-full animate-pulse" /> Habilidades Técnicas
             </h4>
-            <div className="flex flex-wrap gap-2">
-              {[
-                "Python",
-                "TypeScript",
-                "React",
-                "Node.js",
-                "Git",
-              ].map((skill, index) => (
-                <span
-                  key={skill}
-                  className="px-4 py-2 bg-white border border-gray-200 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-900 hover:text-white hover:scale-110 transition-all duration-300 transform hover:rotate-1"
-                  style={{
-                    animation: isVisible ? `fadeUp 0.5s ease-out ${0.8 + index * 0.05}s forwards` : 'none',
-                    opacity: 0
-                  }}
-                >
-                  {skill}
-                </span>
-              ))}
+            <div className="space-y-3">
+              <div>
+                <p className="text-sm font-semibold text-gray-800 mb-2">Full Stack:</p>
+                <div className="flex flex-wrap gap-2">
+                  {["Python",  "API Rest", "FastAPI", "React", "TypeScript"].map((skill, index) => (
+                    <span
+                      key={skill}
+                      className="px-4 py-2 bg-white border border-gray-200 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-900 hover:text-white hover:scale-110 transition-all duration-300 transform hover:rotate-1"
+                      style={{
+                        animation: isVisible ? `fadeUp 0.5s ease-out ${0.8 + index * 0.05}s forwards` : 'none',
+                        opacity: 0
+                      }}
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <p className="text-sm font-semibold text-gray-800 mb-2">Data Analytics:</p>
+                <div className="flex flex-wrap gap-2">
+                  {["Python", "Pandas", "Power BI", "PostgreSQL"].map((skill, index) => (
+                    <span
+                      key={`analytics-${skill}`}
+                      className="px-4 py-2 bg-white border border-gray-200 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-900 hover:text-white hover:scale-110 transition-all duration-300 transform hover:rotate-1"
+                      style={{
+                        animation: isVisible ? `fadeUp 0.5s ease-out ${0.9 + index * 0.05}s forwards` : 'none',
+                        opacity: 0
+                      }}
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </div>

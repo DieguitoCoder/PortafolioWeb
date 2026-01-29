@@ -76,9 +76,7 @@ export function Hero() {
           </div>
 
           <p className="text-base sm:text-lg lg:text-xl text-gray-700 leading-relaxed max-w-xl mx-auto lg:mx-0 font-light tracking-wide transform transition-all duration-700 hover:translate-x-2 hover:text-gray-900">
-            Soy <span className="font-semibold text-gray-900 bg-gradient-to-r from-gray-100 to-transparent px-2 py-1 rounded">Data Analytics</span> y Desarrollador web. Me
-            apasiona crear, aprender y llevar mis ideas a la realidad a través
-            de la programación y creatividad.
+            Soy <span className="font-semibold text-gray-900 bg-gradient-to-r from-gray-100 to-transparent px-2 py-1 rounded">Data Analytics</span> y <span className="font-semibold text-gray-900 bg-gradient-to-r from-gray-100 to-transparent px-2 py-1 rounded">Desarrollador Full Stack</span>, Me apasiona construir soluciones inteligentes, aprender nuevas tecnologías y llevar mis ideas a la realidad fusionando la programación con el poder de la <span className="font-semibold text-gray-900 bg-gradient-to-r from-gray-100 to-transparent px-2 py-1 rounded">Inteligencia Artificial.</span>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-up-delay-400 justify-center lg:justify-start">

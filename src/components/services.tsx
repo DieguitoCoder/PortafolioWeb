@@ -31,7 +31,7 @@ export function Services() {
     {
       id: 1,
       title: "Desarrollo Web",
-      description: "Creación de aplicaciones web modernas y responsivas con las últimas tecnologías",
+      description: "Creación de aplicaciones web modernas, rápidas y responsivas, utilizando las tecnologías más actuales del mercado.",
       icon: (
         <svg
           width="40"
@@ -53,7 +53,7 @@ export function Services() {
     {
       id: 2,
       title: "Data Analytics & IA",
-      description: "Análisis de datos y soluciones de inteligencia artificial para impulsar decisiones basadas en datos",
+      description: "Transformo datos en decisiones mediante análisis avanzado e integración de modelos de Inteligencia Artificial para potenciar tu negocio",
       icon: (
         <svg
           width="40"
@@ -74,7 +74,7 @@ export function Services() {
     {
       id: 3,
       title: "Full Stack",
-      description: "Soluciones completas desde el backend hasta el frontend, optimizadas y escalables",
+      description: "Soluciones de extremo a extremo, desde arquitecturas backend robustas hasta interfaces fluidas, siempre optimizadas y escalables",
       icon: (
         <svg
           width="40"
