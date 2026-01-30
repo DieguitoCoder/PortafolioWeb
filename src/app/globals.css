@@ -7,6 +7,11 @@ body {
   padding: 0;
 }
 
+/* Compensar la barra de navegación fija al hacer scroll a secciones */
+section[id] {
+  scroll-margin-top: 40px;
+}
+
 /* Animaciones de fade up */
 @keyframes fadeUp {
   from {
@@ -56,7 +61,8 @@ body {
 
 /* Animación de flotación */
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0) rotate(0deg);
     opacity: 0.2;
   }

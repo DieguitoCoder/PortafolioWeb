@@ -71,7 +71,7 @@ export function About() {
               Diego Teran
             </h3>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Mi enfoque no es solo escribir código, sino entender el comportamiento de los datos para crear sistemas que aprendan y evolucionen. Soy un aprendiz constante que explora activamente las fronteras de la IA Generativa y la automatización para optimizar procesos de desarrollo.  
+              Soy un aprendiz constante que explora activamente las fronteras de la IA Generativa y la automatización para optimizar procesos de desarrollo.  
             </p>
           </div>
 
@@ -93,9 +93,6 @@ export function About() {
               <p className="text-sm hover:text-gray-900 transition-colors">Ago 2025 – Dic 2025</p>
               <p className="text-sm hover:text-gray-900 transition-colors">
                 Formé parte de la ruta avanzada de Data Analytics, especializándome en el procesamiento de datos con Python y la creación de tableros de control estratégicos en Power BI.
-              </p>
-              <p className="text-sm hover:text-gray-900 transition-colors">
-                Desarrollé habilidades técnicas intensivas en el ecosistema de RIWI, destacando por la capacidad analítica y resolución de problemas técnicos complejos.
               </p>
             </div>
           </div>
@@ -120,10 +117,7 @@ export function About() {
                 • Lidero el desarrollo de soluciones integrales con un enfoque especializado en arquitectura Backend y optimización de Bases de Datos utilizando Python.
               </p>
               <p className="text-sm hover:text-gray-900 transition-colors">
-                • Diseño e implemento servicios escalables y eficientes, asegurando la integridad de los datos y el rendimiento del sistema.
-              </p>
-              <p className="text-sm hover:text-gray-900 transition-colors">
-                • Colaboro en el ciclo completo de desarrollo (Backend), garantizando una transición fluida entre la lógica del servidor y la interfaz de usuario.
+                • Desarrollo y mantenimiento de servicios API y arquitecturas de datos, conectando flujos complejos del backend con diversas bases de datos.
               </p>
             </div>
           </div>
