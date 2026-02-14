@@ -44,19 +44,19 @@ export function Projects() {
       description:
         "Herramienta avanzada de automatización que utiliza modelos de Google Generative AI y OpenAI para transformar datos en documentos profesionales y PDFs dinámicos.",
       technologies: ["Docker", "Python", "Google Generative AI", "OpenAI"],
-      demo: "https://github.com/DieguitoCoder/DocGenPro-Ai",
+      github: "https://github.com/DieguitoCoder/DocGenPro-Ai",
       image: "/proyecto2.png",
-      showOnlyDemo: true,
+      showOnlyDemo: false,
     },
     {
       id: 3,
-      title: "RW-Ventas",
+      title: "DK-Ecommerce",
       description:
-        "Desarrollo de una solución   de datos,desde la limpieza y modelado de datos hasta su despliegue en PostgreSQL",
-      technologies: ["Python", "IA", "JupyterNotebook", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
-      github: "https://github.com/DieguitoCoder/RW-Ventas",
+        "Desarrollo de una tienda en linea con carrito de compras y pasarela de pagos 100% Real y Base de datos Supabase",
+      technologies: ["Python", "IA", "React", "Nextjs", "Postgresql", "Tailwindcss", "Supabase"],
+      demo: "https://dk-ecommerce-frontend.vercel.app/dashboard",
       image: "/proyecto3.png",
-      showOnlyDemo: false,
+      showOnlyDemo: true,
     },
   ];
 
